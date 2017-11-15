@@ -190,7 +190,6 @@ public class Board implements Comparable<Board>{
             for(Block b : goal) {
                 if(a.getHeight() == b.getHeight() && a.getWidth() == b.getWidth()) {
                     rank += a.distance(b);
-                    //System.out.println(a + "\t\t\t" + b + " " + " " + rank);
                 }
             }
         }
