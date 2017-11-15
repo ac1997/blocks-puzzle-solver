@@ -1,1 +1,1 @@
-# blocks-puzzle-solver
+# Blocks Puzzle Solver
