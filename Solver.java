@@ -35,10 +35,6 @@ public class Solver {
                 System.out.println("-odebuggingSolver1: Prints all moves that have been tried so far");
                 System.out.println("-odebuggingSolver2: Prints all moves that are added to the priority queue and prints current board");
                 System.out.println("-odebuggingBoard: Calls isOk methods on board and block and prints current board and boards added");
-                break;
-//            default:
-//                System.err.println("Invalid debugging option.");
-//                System.exit(1);
         }
     }
 
@@ -86,7 +82,6 @@ public class Solver {
             if(this.isGoal(current)) {
                 Board copy = current;
                 String output = "";
-
 
                 //System.out.println("Solution found! Final config:");
                 //current.printBoard();
@@ -143,7 +138,7 @@ public class Solver {
             Solver s = new Solver(args);
             s.solve();
         } catch(Exception e) {
-            System.out.println("!!!Error");
+            System.out.println("Error!!! :)");
         }
 
     }
