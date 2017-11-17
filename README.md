@@ -13,8 +13,8 @@
 
 * The **Solver** class is the heart of this Sliding Puzzle Solver program. It consists of *solve* method which search for solution for given initial board configuration and final board configuration. Below are the data structures contained in **Solver** class.
   * `visited`: A HashSet of **Board** instances already visited by the solving algorithm. The *hashCode* method in Board class was overridden in order to achieve constant lookup and insert time which is crucial to meet the time constraints. 
-  * `boardQueue`: A PriorityQueue of Board that stores all board configuration after proceeding all possible moves for a given board. The PirorityQueue is organized using `rank` variable and `compareTo` method in **Board** class.
-  * `goalConfig`: An ArrayList of **Block** instances of the goal configuration initialized in `getFinalConfig` method.
+  * `boardQueue`: A PriorityQueue of Board that stores all board configuration after proceeding all possible moves for a given board. The PirorityQueue is organized using `rank` variable and *compareTo* method in **Board** class.
+  * `goalConfig`: An ArrayList of **Block** instances of the goal configuration initialized in *getFinalConfig* method.
 
 * The **Move** class is a helper class. It consist of 2 variables, `block`, a **Block** instance and `direction`, a String of either `up`, `down`, `left` or `right` indicating the direction of the movement of the `block`.
 
