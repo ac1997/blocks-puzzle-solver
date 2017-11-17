@@ -1,4 +1,4 @@
-# Blocks Puzzle Solver
+# Sliding Blocks Puzzle Solver
 ## Design and Data Structure ##
 * This Sliding Block Puzzle primarily consists of 3 main classes: **Board**, **Block** and **Solver**. Each class keeping track of variables that are necessary to solve the puzzle or traverse back to the initial configuration after the puzzle is solved.
 
